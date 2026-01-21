@@ -1,0 +1,16 @@
+{
+  "name": "CoffeeGuard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.0",
+    "react-native-image-picker": "^5.0.1",
+    "react-native-permissions": "^3.9.0"
+  }
+}

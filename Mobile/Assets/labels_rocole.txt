@@ -1,0 +1,3 @@
+coffee_healthy
+red_spider_mite
+coffee_rust
