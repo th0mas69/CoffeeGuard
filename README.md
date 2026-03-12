@@ -264,12 +264,13 @@ Generate APK:
 
 
 
+<h2> System Architecuture </h2>
 
 
 
 
 
-
+<img width="4436" height="396" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/463c0e2d-2973-4d3d-adca-3fe8955ba195" />
 
 
   
