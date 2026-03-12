@@ -48,7 +48,6 @@ Offline on-device prediction (TensorFlow Lite)
 
 <h3> Step 1: Create Virtual Environment </h3>
 
-      Bash<br>
       cd backend <br>
       python -m venv venv <br>
 
@@ -56,11 +55,11 @@ Activate environment: <br>
 
 <b> Windows </b> 
 
-  venv\Scripts\activate  <br>
+    venv\Scripts\activate  <br>
 
 <b> Mac/Linux </b>
 
-  source venv/bin/activate <br>
+    source venv/bin/activate <br>
 
 
 
