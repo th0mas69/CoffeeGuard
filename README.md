@@ -3,7 +3,19 @@ Student Name: Thomas Luke <br>
 Matriculation Number: 4243144 <br>
 Course Code: CSEMCSPCSP01 <br>
 
-Hybrid Mobile–Cloud Deep Learning Application for Coffee Plant Disease Diagnosis <br><br>
+<h2> Project Description </h2> 
+
+CoffeeGuard is a hybrid mobile-cloud AI application designed to help farmers identify coffee plant diseases quickly using smartphone images. The system uses a deep learning convolutional neural network (CNN) trained on coffee leaf images to classify diseases such as Leaf Rust, Leaf Miner, Phoma, and Healthy leaves.
+
+The mobile application allows users to capture or upload a leaf image, which is then analyzed either:
+
+Online using a backend API server for higher computational power, or
+
+Offline using an embedded TensorFlow Lite model for real-time diagnosis in low-connectivity environments.
+
+This hybrid architecture ensures the application remains functional even in rural farming regions with unreliable internet access. By providing instant disease detection and confidence scores, the system helps farmers take timely action to reduce crop loss and improve coffee yield.
+
+<br><br>
 
 <h2>  Project Overview </h2> <br>
 
