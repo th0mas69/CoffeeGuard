@@ -2,3 +2,47 @@ Coffee disease detection Application Computer Science Project Portfolio for the 
 Student Name: Thomas Luke <br>
 Matriculation Number: 4243144 <br>
 Course Code: CSEMCSPCSP01 <br>
+
+Hybrid Mobile–Cloud Deep Learning Application for Coffee Plant Disease Diagnosis <br><br>
+
+<h2> 📌 Project Overview </h2> <br>
+
+This project is a hybrid mobile–cloud system for detecting coffee leaf diseases using deep learning.
+
+It consists of:
+
+📱 Mobile Application (Android – Flutter)
+
+🖥️ Backend API (FastAPI)
+
+🤖 Deep Learning Model (MobileNet-based CNN)
+
+📦 TensorFlow Lite model for offline inference
+
+The system supports:
+
+Online cloud-based prediction
+
+Offline on-device prediction (TensorFlow Lite)
+
+<br> <br> <br>
+
+<h2> Installation & Setup Guide </h2> <br>
+
+<h3> 1. Clone the Respository </h3> <br>
+
+git clone https://github.com/your-username/coffee-disease-app.git
+cd coffee-disease-app
+
+<br>
+
+<h2> 🖥️ Backend Setup (FastAPI) </h2> <br>
+
+<b> Requirements </b> <br>
+
+  Python 3.9+
+  
+  pip
+  
+  virtualenv (recommended)
+
