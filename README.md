@@ -72,6 +72,18 @@ Activate environment: <br>
 Server will run at http://127.0.0.1:8000 <br>
 API documentation available at: http://127.0.0.1:8000/docs <br> <br>
 
+<h2> 📱 Mobile App Setup (Flutter) </h2>
+
+<h3> Requirements </h3> <br>
+
+-Flutter SDK (latest stable)
+-Android Studio or VS Code
+-Android Studio or VS Code
+
+Check Flutter installation: 
+
+            flutter doctor
+
 
 
 
