@@ -61,6 +61,19 @@ Activate environment: <br>
 
     source venv/bin/activate <br>
 
+<H3> Step 2: Install Dependencies </H3>
+
+    pip install -r requirements.txt <br>
+
+<h3> Step 3: Run Backend Server </h3>
+
+    uvicorn main:app --reload <br>
+
+Server will run at http://127.0.0.1:8000 <br>
+API documentation available at: http://127.0.0.1:8000/docs <br> <br>
+
+
+
 
 
 
