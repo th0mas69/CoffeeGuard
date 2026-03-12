@@ -5,7 +5,7 @@ Course Code: CSEMCSPCSP01 <br>
 
 Hybrid Mobile–Cloud Deep Learning Application for Coffee Plant Disease Diagnosis <br><br>
 
-<h2> 📌 Project Overview </h2> <br>
+<h2>  Project Overview </h2> <br>
 
 This project is a hybrid mobile–cloud system for detecting coffee leaf diseases using deep learning.
 
