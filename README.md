@@ -31,7 +31,7 @@ Offline on-device prediction (TensorFlow Lite)
 
 <h3> 1. Clone the Respository </h3> <br>
 
-      git clone https://github.com/your-username/coffee-disease-app.git <br>
+      git clone https://github.com/your-username/coffee-disease-app.git 
       cd coffee-disease-app
 
 <br>
