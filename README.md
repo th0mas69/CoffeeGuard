@@ -174,7 +174,84 @@ Ensure:
 
 -model.tflite exists in assets
 
--Proper asset path declared
+-Proper asset path declared 
+
+<br> <br>
+
+<h2> (Optional) Docker Setup for Backend </h2> <br>
+
+Build Docker image:
+
+      docker build -t coffee-api .
+
+Run container:
+
+      docker run -p 8000:8000 coffee-api
+
+<br>
+
+<h2> API Endpoint Example </h2> <br>
+
+POST /predict
+
+Request:
+
+      multipart/form-data
+      image: file
+
+<br>
+
+multipart/form-data
+image: file
+
+      JSON
+      {
+        "prediction": "Coffee Leaf Rust",
+        "confidence": 0.94
+      }
+
+<br>
+
+<h3> Troubleshooting </h3>
+
+<b> ❌ ModuleNotFoundError </b>
+
+Ensure virtual environment is activated.
+
+<b> ❌ Flutter not detecting device </b>
+
+RUN: 
+
+      flutter doctor
+
+<b> Model not loading </b>
+
+Verify:
+
+Correct asset path
+
+Correct TensorFlow Lite version
+
+
+<br> <br>
+
+<h2> Production Deployment </h2> <br>
+
+Backend:
+
+Deploy via Docker
+
+Use Nginx + Gunicorn
+
+Mobile:
+
+Generate APK:
+
+      Bash
+      flutter build apk --release
+
+
+
 
 
 
