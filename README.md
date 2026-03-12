@@ -273,5 +273,71 @@ Generate APK:
 <img width="4436" height="396" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/463c0e2d-2973-4d3d-adca-3fe8955ba195" />
 
 
+<h3> Architecture Explanation </h3>
+
+The system consists of three main components:
+
+1️⃣ Mobile Application
+
+Built using Flutter / React Native
+
+Allows users to:
+
+Capture coffee leaf images
+
+Upload existing images
+
+Receive disease diagnosis
+
+Handles both online and offline inference <br>
+
+2️⃣ Backend Server
+
+Built with FastAPI / Flask
+
+Hosts the trained deep learning model (.h5)
+
+Receives image requests from the mobile app
+
+Returns:
+
+Disease classification
+
+Prediction confidence score <br>
+
+3️⃣ AI Model Layer
+
+Two models are used:
+
+Cloud Model
+
+Full TensorFlow/Keras CNN
+
+Higher accuracy
+
+Runs on backend server
+
+Offline Model
+
+Converted TensorFlow Lite (.tflite)
+
+Optimized for mobile devices
+
+Enables offline disease detection <br>
+
+<b> Workflow </b>
+
+1. User captures a coffee leaf image.
+
+2. Mobile app checks internet connectivity.
+
+3. If online → image sent to backend server.
+
+4. If offline → TensorFlow Lite model processes image locally.
+
+5. Model predicts disease category.
+
+6. App displays disease name and confidence score.
+
   
 
